@@ -1,0 +1,14 @@
+{
+  "app_name": {
+    "message": "Insta Likes 3 red"
+  },
+  "app_description": {
+    "message": "Автоматические лайки в Instagram"
+  },
+  "browser_action": {
+    "message": "Автоматические лайки"
+  },
+  "mode_enable": {
+    "message": "Нажми сердечко!"
+  }
+}

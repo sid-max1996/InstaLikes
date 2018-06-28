@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+    <script src="scripts/popup.js"></script>
+ 
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Insta Like 2</title>
+
+
+<style type="text/css" >
+body {
+  min-width: 320px; /* your desired width */
+  min-height:320px;
+  position: relative;
+  vertical-align:middle;
+}
+
+.hashsec { border-color:#cccccc; width:40px; padding-top:8px; padding-bottom:8px; font-size:10px; text-align:center; border-width:2px; border-radius:0px; border-style:solid; text-shadow:0px 0px 0px rgba(42,42,42,.75); font-weight:normal; font-family:sans-serif;  } 
+.hashsec:focus { outline:none; } 
+
+
+.homelike { border-color:#cccccc; padding:8px; font-size:10px; text-align:center; border-width:2px; border-radius:0px; border-style:solid; text-shadow:0px 0px 0px rgba(42,42,42,.75); font-weight:normal; font-family:sans-serif;  } 
+.homelike:focus { outline:none; } 
+
+.hashlike { border-color:#cccccc; padding:8px; font-size:10px; text-align:center; border-width:2px; border-radius:0px; border-style:solid; text-shadow:0px 0px 0px rgba(42,42,42,.75); font-weight:normal; font-family:sans-serif;  } 
+.hashlike:focus { outline:none; } 
+
+#checkPage {
+   border: 1px solid #c0c3c4;
+   background: #c0c3c4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#bdbdbd), to(#c0c3c4));
+   background: -webkit-linear-gradient(top, #bdbdbd, #c0c3c4);
+   background: -moz-linear-gradient(top, #bdbdbd, #c0c3c4);
+   background: -ms-linear-gradient(top, #bdbdbd, #c0c3c4);
+   background: -o-linear-gradient(top, #bdbdbd, #c0c3c4);
+   background-image: -ms-linear-gradient(top, #bdbdbd 0%, #c0c3c4 100%);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-shadow: #ebe6eb 0 1px 0;
+   color: #000000;
+   font-size: 14px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#checkPage:hover {
+   border: 1px solid #c0c3c4;
+    background: #c0c3c4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c0c3c4), to(#c0c3c4));
+   background: -webkit-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background: -moz-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background: -ms-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background: -o-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background-image: -ms-linear-gradient(top, #c0c3c4 0%, #c0c3c4 100%);
+   color: #000000;
+   }
+#checkPage:active  {
+   border: 1px solid #c0c3c4;
+   background: #c0c3c4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c0c3c4), to(#c0c3c4));
+   background: -webkit-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background: -moz-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background: -ms-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background: -o-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background-image: -ms-linear-gradient(top, #c0c3c4 0%, #c0c3c4 100%);
+   color: #000000;
+   }
+   
+   
+   #hashPage {
+   border: 1px solid #c0c3c4;
+   background: #c0c3c4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#bdbdbd), to(#c0c3c4));
+   background: -webkit-linear-gradient(top, #bdbdbd, #c0c3c4);
+   background: -moz-linear-gradient(top, #bdbdbd, #c0c3c4);
+   background: -ms-linear-gradient(top, #bdbdbd, #c0c3c4);
+   background: -o-linear-gradient(top, #bdbdbd, #c0c3c4);
+   background-image: -ms-linear-gradient(top, #bdbdbd 0%, #c0c3c4 100%);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-shadow: #ebe6eb 0 1px 0;
+   color: #000000;
+   font-size: 14px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#hashPage:hover {
+   border: 1px solid #c0c3c4;
+    background: #c0c3c4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c0c3c4), to(#c0c3c4));
+   background: -webkit-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background: -moz-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background: -ms-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background: -o-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background-image: -ms-linear-gradient(top, #c0c3c4 0%, #c0c3c4 100%);
+   color: #000000;
+   }
+#hashPage:active  {
+   border: 1px solid #c0c3c4;
+   background: #c0c3c4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c0c3c4), to(#c0c3c4));
+   background: -webkit-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background: -moz-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background: -ms-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background: -o-linear-gradient(top, #c0c3c4, #c0c3c4);
+   background-image: -ms-linear-gradient(top, #c0c3c4 0%, #c0c3c4 100%);
+   color: #000000;
+   }
+   
+   
+</style >
+
+
+</head>
+  <body>
+     
+    <center><img src = "images/log.jpg" width="170" height="85"/></center>
+   <h4>To work in an automatic mode, press the check box</h4>
+
+ <p style = "text-align:justify;padding-left:40px;padding-right:40px; margin-top=-20px;">Do not forget Instagram limits 100 likes in a minute. 
+ 
+
+<center>
+<form >
+  <h3 style ="color: rgba(69, 75, 84, 1);"  >Number of likes to do :<h3> 
+  <input type="text" name="hashlike" class="hashlike" value="0" /> <br/>
+  
+   <h3 style ="color: rgba(69, 75, 84, 1);"  >Random interval after each like : (secondes)<h3> 
+  
+     Min : <input type="text" name="minsecondes" class="hashsec" value="0" disabled/>   Max : <input type="text" name="maxsecondes" class="hashsec" value="3"  disabled />   <br/> 
+  
+    <h3 style ="color: rgba(69, 75, 84, 1);"  >Automatically re-launch <input type="checkbox" name = "checkbox1"> <h3> 
+    
+    <div style ="visibility: hidden;" name = "div1">
+        after : <input type="text" name="relaunch" class="hashsec" value="0"/> minutes
+        <br/> 
+    </div> 
+	
+	 <br/>
+<button id="hashPage">Do it !</button>
+</form>    
+</center>
+    
+    
+  </body>
+</html>

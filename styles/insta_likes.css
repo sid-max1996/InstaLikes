@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body:after {
+  position: fixed;
+  content: "__MSG_mode_enable__";
+  top: 20px;
+  left: 10px;
+  padding: 6px 12px;
+  background-color: #ffc;
+  border: 1px solid #ddd;
+  z-index: 9999;
+}
